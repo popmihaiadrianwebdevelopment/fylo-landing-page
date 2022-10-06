@@ -92,14 +92,14 @@ img {
 
 /* navbar */
 nav {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo{
-    width: 90px;
+    width: 200px;
     height: 100%;
 }
 
@@ -320,6 +320,17 @@ footer p{
 @media screen and (max-width: 768px) {
     body {
         text-align: center;
+    }
+    nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 100px;
+        height: 100%;
     }
     .light-blueish::before {
         background-image: url('./images/bg-curve-mobile.svg');
